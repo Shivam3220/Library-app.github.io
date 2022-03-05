@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBARAY APP</title>
+    <link rel="stylesheet" href=style.css>
+    <script src="https://kit.fontawesome.com/9cde65e835.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="mainTitle">
+        <h1>SHIVAM LIBRARY</h1>
+       <div id="search">
+              <input type="text" name="" id="srh" placeholder="search" ></input>
+              
+
+                  <!-- <h1 id="scrhBtn">
+                    <i class="fa-solid fa-bat"></i>
+                </h1>
+                 -->
+        </div>
+     </nav>
+     <div id="addBook">
+         <h3>ENTER DETAILS</h3>
+         <form action="" id="fillingDetails"><table>
+             <tr>
+                 <td>
+                 <label for="nameOfBook">ENTER BOOK NAME</label>
+            </td>
+            <td>
+                <input  type="text" name="bookName" id="nameOfBook" ></input>
+             </td>   
+            </tr> 
+            <tr>
+            <td>
+                <label for="nameOfauthor">ENTER AUTHOR NAME </label>
+            </td>    
+            <td>
+
+                <input type="text" name="" id="nameOfAuthor"></input>
+            </td>
+            </tr> 
+            <tr>
+            <td>
+                <label for="idOfbook">ENTER BOOK ID </label>
+            </td>    
+            <td>
+
+                <input type="text" name="" id="idOfbook"></input>
+            </td>
+            </tr> 
+        </table>
+    </form>
+    <button id="addBtn" class="btns">ADD DATA</button>
+        <div>
+
+            <div id="booksIssued">
+                <table >
+                    <thead>
+                        
+                        <tr id="tableHeading">
+                            <th>BOOK ID</th>
+                            <th>NAME OF AUTHOR</th>
+                            <th>NAME OF BOOK</th>
+                            <!-- <th>DELETE RECORD</th> -->
+                        </tr>
+                    </thead>
+                    <tbody id="viewIssue">
+
+                    </tbody>
+                    
+                 
+                </table>
+            </div>
+         </div>
+     </div>
+</body>
+<script src="app.js"></script>
+</html>
